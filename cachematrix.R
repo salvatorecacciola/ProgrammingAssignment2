@@ -1,9 +1,9 @@
 ## The code in this script can be used to compute the inverse of a square invertible matrix
-## and cache the inverse, so that if needed it can used multiple times
+## and cache the inverse, so that if needed it can be used multiple times
 ## with no need to compute it again
 
 
-## The makeCacheMatrix create an R object that stores a matrix and its inverse
+## The makeCacheMatrix() function creates an R object that stores a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     i<-NULL
